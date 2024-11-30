@@ -1,0 +1,1086 @@
+odules/rollup/dist:
+bin			getLogFilter.js		native.js		rollup.d.ts
+es			loadConfigFile.d.ts	parseAst.d.ts		rollup.js
+getLogFilter.d.ts	loadConfigFile.js	parseAst.js		shared
+
+./node_modules/rollup/dist/bin:
+rollup
+
+./node_modules/rollup/dist/es:
+getLogFilter.js	package.json	parseAst.js	rollup.js	shared
+
+./node_modules/rollup/dist/es/shared:
+node-entry.js	parseAst.js	watch.js
+
+./node_modules/rollup/dist/shared:
+fsevents-importer.js	loadConfigFile.js	rollup.js		watch.js
+index.js		parseAst.js		watch-cli.js
+
+./node_modules/run-parallel:
+LICENSE		README.md	index.js	package.json
+
+./node_modules/safe-array-concat:
+CHANGELOG.md	README.md	index.js	test
+LICENSE		index.d.ts	package.json	tsconfig.json
+
+./node_modules/safe-array-concat/test:
+index.js
+
+./node_modules/safe-regex-test:
+CHANGELOG.md	LICENSE		README.md	index.js	package.json	test
+
+./node_modules/safe-regex-test/test:
+index.js
+
+./node_modules/scheduler:
+LICENSE			cjs			package.json		unstable_mock.js
+README.md		index.js		umd			unstable_post_task.js
+
+./node_modules/scheduler/cjs:
+scheduler-unstable_mock.development.js		scheduler-unstable_post_task.production.min.js
+scheduler-unstable_mock.production.min.js	scheduler.development.js
+scheduler-unstable_post_task.development.js	scheduler.production.min.js
+
+./node_modules/scheduler/umd:
+scheduler-unstable_mock.development.js		scheduler.production.min.js
+scheduler-unstable_mock.production.min.js	scheduler.profiling.min.js
+scheduler.development.js
+
+./node_modules/semver:
+LICENSE		README.md	bin		package.json	range.bnf	semver.js
+
+./node_modules/semver/bin:
+semver.js
+
+./node_modules/set-function-length:
+CHANGELOG.md	README.md	env.js		index.js	tsconfig.json
+LICENSE		env.d.ts	index.d.ts	package.json
+
+./node_modules/set-function-name:
+CHANGELOG.md	LICENSE		README.md	index.d.ts	index.js	package.json	tsconfig.json
+
+./node_modules/shebang-command:
+index.js	license		package.json	readme.md
+
+./node_modules/shebang-regex:
+index.d.ts	index.js	license		package.json	readme.md
+
+./node_modules/side-channel:
+CHANGELOG.md	README.md	index.js	test
+LICENSE		index.d.ts	package.json	tsconfig.json
+
+./node_modules/side-channel/test:
+index.js
+
+./node_modules/signal-exit:
+LICENSE.txt	README.md	dist		package.json
+
+./node_modules/signal-exit/dist:
+cjs	mjs
+
+./node_modules/signal-exit/dist/cjs:
+browser.d.ts		index.d.ts		package.json		signals.js.map
+browser.d.ts.map	index.d.ts.map		signals.d.ts
+browser.js		index.js		signals.d.ts.map
+browser.js.map		index.js.map		signals.js
+
+./node_modules/signal-exit/dist/mjs:
+browser.d.ts		index.d.ts		package.json		signals.js.map
+browser.d.ts.map	index.d.ts.map		signals.d.ts
+browser.js		index.js		signals.d.ts.map
+browser.js.map		index.js.map		signals.js
+
+./node_modules/source-map-js:
+LICENSE		README.md	lib		package.json	source-map.d.ts	source-map.js
+
+./node_modules/source-map-js/lib:
+array-set.js			quick-sort.js			source-node.d.ts
+base64-vlq.js			source-map-consumer.d.ts	source-node.js
+base64.js			source-map-consumer.js		util.js
+binary-search.js		source-map-generator.d.ts
+mapping-list.js			source-map-generator.js
+
+./node_modules/string-width:
+index.d.ts	index.js	license		package.json	readme.md
+
+./node_modules/string-width-cjs:
+index.d.ts	index.js	license		node_modules	package.json	readme.md
+
+./node_modules/string-width-cjs/node_modules:
+ansi-regex	emoji-regex	strip-ansi
+
+./node_modules/string-width-cjs/node_modules/ansi-regex:
+index.d.ts	index.js	license		package.json	readme.md
+
+./node_modules/string-width-cjs/node_modules/emoji-regex:
+LICENSE-MIT.txt	README.md	es2015		index.d.ts	index.js	package.json	text.js
+
+./node_modules/string-width-cjs/node_modules/emoji-regex/es2015:
+index.js	text.js
+
+./node_modules/string-width-cjs/node_modules/strip-ansi:
+index.d.ts	index.js	license		package.json	readme.md
+
+./node_modules/string.prototype.matchall:
+CHANGELOG.md			implementation.js		polyfill.js
+LICENSE				index.js			regexp-matchall.js
+README.md			package.json			shim.js
+auto.js				polyfill-regexp-matchall.js	test
+
+./node_modules/string.prototype.matchall/test:
+index.js	shimmed.js	tests.js
+
+./node_modules/string.prototype.repeat:
+LICENSE-MIT.txt		implementation.js	polyfill.js
+README.md		index.js		shim.js
+auto.js			package.json		tests
+
+./node_modules/string.prototype.repeat/tests:
+index.js	shimmed.js	tests.js
+
+./node_modules/string.prototype.trim:
+CHANGELOG.md		auto.js			package.json		test
+LICENSE			implementation.js	polyfill.js
+README.md		index.js		shim.js
+
+./node_modules/string.prototype.trim/test:
+implementation.js	index.js		shimmed.js		tests.js
+
+./node_modules/string.prototype.trimend:
+CHANGELOG.md		auto.js			package.json		test
+LICENSE			implementation.js	polyfill.js
+README.md		index.js		shim.js
+
+./node_modules/string.prototype.trimend/test:
+implementation.js	index.js		shimmed.js		tests.js
+
+./node_modules/string.prototype.trimstart:
+CHANGELOG.md		auto.js			package.json		test
+LICENSE			implementation.js	polyfill.js
+README.md		index.js		shim.js
+
+./node_modules/string.prototype.trimstart/test:
+implementation.js	index.js		shimmed.js		tests.js
+
+./node_modules/strip-ansi:
+index.d.ts	index.js	license		package.json	readme.md
+
+./node_modules/strip-ansi-cjs:
+index.d.ts	index.js	license		node_modules	package.json	readme.md
+
+./node_modules/strip-ansi-cjs/node_modules:
+ansi-regex
+
+./node_modules/strip-ansi-cjs/node_modules/ansi-regex:
+index.d.ts	index.js	license		package.json	readme.md
+
+./node_modules/strip-json-comments:
+index.d.ts	index.js	license		package.json	readme.md
+
+./node_modules/sucrase:
+LICENSE		README.md	bin		dist		package.json	register	ts-node-plugin
+
+./node_modules/sucrase/bin:
+sucrase		sucrase-node
+
+./node_modules/sucrase/dist:
+CJSImportProcessor.js		cli.js				register.js
+HelperManager.js		computeSourceMap.js		transformers
+NameManager.js			esm				types
+Options-gen-types.js		identifyShadowedGlobals.js	util
+Options.js			index.js
+TokenProcessor.js		parser
+
+./node_modules/sucrase/dist/esm:
+CJSImportProcessor.js		TokenProcessor.js		parser
+HelperManager.js		cli.js				register.js
+NameManager.js			computeSourceMap.js		transformers
+Options-gen-types.js		identifyShadowedGlobals.js	util
+Options.js			index.js
+
+./node_modules/sucrase/dist/esm/parser:
+index.js	plugins		tokenizer	traverser	util
+
+./node_modules/sucrase/dist/esm/parser/plugins:
+flow.js		jsx		types.js	typescript.js
+
+./node_modules/sucrase/dist/esm/parser/plugins/jsx:
+index.js	xhtml.js
+
+./node_modules/sucrase/dist/esm/parser/tokenizer:
+index.js	keywords.js	readWord.js	readWordTree.js	state.js	types.js
+
+./node_modules/sucrase/dist/esm/parser/traverser:
+base.js		expression.js	index.js	lval.js		statement.js	util.js
+
+./node_modules/sucrase/dist/esm/parser/util:
+charcodes.js	identifier.js	whitespace.js
+
+./node_modules/sucrase/dist/esm/transformers:
+CJSImportTransformer.js			OptionalChainingNullishTransformer.js
+ESMImportTransformer.js			ReactDisplayNameTransformer.js
+FlowTransformer.js			ReactHotLoaderTransformer.js
+JSXTransformer.js			RootTransformer.js
+JestHoistTransformer.js			Transformer.js
+NumericSeparatorTransformer.js		TypeScriptTransformer.js
+OptionalCatchBindingTransformer.js
+
+./node_modules/sucrase/dist/esm/util:
+elideImportEquals.js		getImportExportSpecifierInfo.js	isExportFrom.js
+formatTokens.js			getJSXPragmaInfo.js		isIdentifier.js
+getClassInfo.js			getNonTypeIdentifiers.js	removeMaybeImportAttributes.js
+getDeclarationInfo.js		getTSImportedNames.js		shouldElideDefaultExport.js
+getIdentifierNames.js		isAsyncOperation.js
+
+./node_modules/sucrase/dist/parser:
+index.js	plugins		tokenizer	traverser	util
+
+./node_modules/sucrase/dist/parser/plugins:
+flow.js		jsx		types.js	typescript.js
+
+./node_modules/sucrase/dist/parser/plugins/jsx:
+index.js	xhtml.js
+
+./node_modules/sucrase/dist/parser/tokenizer:
+index.js	keywords.js	readWord.js	readWordTree.js	state.js	types.js
+
+./node_modules/sucrase/dist/parser/traverser:
+base.js		expression.js	index.js	lval.js		statement.js	util.js
+
+./node_modules/sucrase/dist/parser/util:
+charcodes.js	identifier.js	whitespace.js
+
+./node_modules/sucrase/dist/transformers:
+CJSImportTransformer.js			OptionalChainingNullishTransformer.js
+ESMImportTransformer.js			ReactDisplayNameTransformer.js
+FlowTransformer.js			ReactHotLoaderTransformer.js
+JSXTransformer.js			RootTransformer.js
+JestHoistTransformer.js			Transformer.js
+NumericSeparatorTransformer.js		TypeScriptTransformer.js
+OptionalCatchBindingTransformer.js
+
+./node_modules/sucrase/dist/types:
+CJSImportProcessor.d.ts		TokenProcessor.d.ts		parser
+HelperManager.d.ts		cli.d.ts			register.d.ts
+NameManager.d.ts		computeSourceMap.d.ts		transformers
+Options-gen-types.d.ts		identifyShadowedGlobals.d.ts	util
+Options.d.ts			index.d.ts
+
+./node_modules/sucrase/dist/types/parser:
+index.d.ts	plugins		tokenizer	traverser	util
+
+./node_modules/sucrase/dist/types/parser/plugins:
+flow.d.ts	jsx		types.d.ts	typescript.d.ts
+
+./node_modules/sucrase/dist/types/parser/plugins/jsx:
+index.d.ts	xhtml.d.ts
+
+./node_modules/sucrase/dist/types/parser/tokenizer:
+index.d.ts		readWord.d.ts		state.d.ts
+keywords.d.ts		readWordTree.d.ts	types.d.ts
+
+./node_modules/sucrase/dist/types/parser/traverser:
+base.d.ts	expression.d.ts	index.d.ts	lval.d.ts	statement.d.ts	util.d.ts
+
+./node_modules/sucrase/dist/types/parser/util:
+charcodes.d.ts	identifier.d.ts	whitespace.d.ts
+
+./node_modules/sucrase/dist/types/transformers:
+CJSImportTransformer.d.ts		OptionalChainingNullishTransformer.d.ts
+ESMImportTransformer.d.ts		ReactDisplayNameTransformer.d.ts
+FlowTransformer.d.ts			ReactHotLoaderTransformer.d.ts
+JSXTransformer.d.ts			RootTransformer.d.ts
+JestHoistTransformer.d.ts		Transformer.d.ts
+NumericSeparatorTransformer.d.ts	TypeScriptTransformer.d.ts
+OptionalCatchBindingTransformer.d.ts
+
+./node_modules/sucrase/dist/types/util:
+elideImportEquals.d.ts			getNonTypeIdentifiers.d.ts
+formatTokens.d.ts			getTSImportedNames.d.ts
+getClassInfo.d.ts			isAsyncOperation.d.ts
+getDeclarationInfo.d.ts			isExportFrom.d.ts
+getIdentifierNames.d.ts			isIdentifier.d.ts
+getImportExportSpecifierInfo.d.ts	removeMaybeImportAttributes.d.ts
+getJSXPragmaInfo.d.ts			shouldElideDefaultExport.d.ts
+
+./node_modules/sucrase/dist/util:
+elideImportEquals.js		getImportExportSpecifierInfo.js	isExportFrom.js
+formatTokens.js			getJSXPragmaInfo.js		isIdentifier.js
+getClassInfo.js			getNonTypeIdentifiers.js	removeMaybeImportAttributes.js
+getDeclarationInfo.js		getTSImportedNames.js		shouldElideDefaultExport.js
+getIdentifierNames.js		isAsyncOperation.js
+
+./node_modules/sucrase/register:
+index.js			ts-legacy-module-interop.js	tsx.js
+js.js				ts.js
+jsx.js				tsx-legacy-module-interop.js
+
+./node_modules/sucrase/ts-node-plugin:
+index.js
+
+./node_modules/supports-color:
+browser.js	index.js	license		package.json	readme.md
+
+./node_modules/supports-preserve-symlinks-flag:
+CHANGELOG.md	LICENSE		README.md	browser.js	index.js	package.json	test
+
+./node_modules/supports-preserve-symlinks-flag/test:
+index.js
+
+./node_modules/tailwindcss:
+CHANGELOG.md		defaultConfig.js	package.json		scripts
+LICENSE			defaultTheme.d.ts	peers			src
+README.md		defaultTheme.js		plugin.d.ts		stubs
+base.css		lib			plugin.js		tailwind.css
+colors.d.ts		loadConfig.d.ts		prettier.config.js	types
+colors.js		loadConfig.js		resolveConfig.d.ts	utilities.css
+components.css		nesting			resolveConfig.js	variants.css
+defaultConfig.d.ts	node_modules		screens.css
+
+./node_modules/tailwindcss/lib:
+cli				css				postcss-plugins
+cli-peer-dependencies.js	featureFlags.js			processTailwindFeatures.js
+cli.js				index.js			public
+corePluginList.js		lib				util
+corePlugins.js			plugin.js			value-parser
+
+./node_modules/tailwindcss/lib/cli:
+build		help		index.js	init
+
+./node_modules/tailwindcss/lib/cli/build:
+deps.js		index.js	plugin.js	utils.js	watching.js
+
+./node_modules/tailwindcss/lib/cli/help:
+index.js
+
+./node_modules/tailwindcss/lib/cli/init:
+index.js
+
+./node_modules/tailwindcss/lib/css:
+LICENSE		preflight.css
+
+./node_modules/tailwindcss/lib/lib:
+cacheInvalidation.js			load-config.js
+collapseAdjacentRules.js		normalizeTailwindDirectives.js
+collapseDuplicateDeclarations.js	offsets.js
+content.js				partitionApplyAtRules.js
+defaultExtractor.js			regex.js
+evaluateTailwindFunctions.js		remap-bitfield.js
+expandApplyAtRules.js			resolveDefaultsAtRules.js
+expandTailwindAtRules.js		setupContextUtils.js
+findAtConfigPath.js			setupTrackingContext.js
+generateRules.js			sharedState.js
+getModuleDependencies.js		substituteScreenAtRules.js
+
+./node_modules/tailwindcss/lib/postcss-plugins:
+nesting
+
+./node_modules/tailwindcss/lib/postcss-plugins/nesting:
+README.md	index.js	plugin.js
+
+./node_modules/tailwindcss/lib/public:
+colors.js		default-config.js	load-config.js
+create-plugin.js	default-theme.js	resolve-config.js
+
+./node_modules/tailwindcss/lib/util:
+applyImportantSelector.js		negateValue.js
+bigSign.js				normalizeConfig.js
+buildMediaQuery.js			normalizeScreens.js
+cloneDeep.js				parseAnimationValue.js
+cloneNodes.js				parseBoxShadowValue.js
+color.js				parseDependency.js
+colorNames.js				parseGlob.js
+configurePlugins.js			parseObjectStyles.js
+createPlugin.js				pluginUtils.js
+createUtilityPlugin.js			prefixSelector.js
+dataTypes.js				pseudoElements.js
+defaults.js				removeAlphaVariables.js
+escapeClassName.js			resolveConfig.js
+escapeCommas.js				resolveConfigPath.js
+flattenColorPalette.js			responsive.js
+formatVariantSelector.js		splitAtTopLevelOnly.js
+getAllConfigs.js			tap.js
+hashConfig.js				toColorValue.js
+isKeyframeRule.js			toPath.js
+isPlainObject.js			transformThemeValue.js
+isSyntacticallyValidPropertyValue.js	validateConfig.js
+log.js					validateFormalSyntax.js
+nameClass.js				withAlphaVariable.js
+
+./node_modules/tailwindcss/lib/value-parser:
+LICENSE		index.d.js	parse.js	unit.js
+README.md	index.js	stringify.js	walk.js
+
+./node_modules/tailwindcss/nesting:
+index.d.ts	index.js
+
+./node_modules/tailwindcss/node_modules:
+resolve
+
+./node_modules/tailwindcss/node_modules/resolve:
+LICENSE		async.js	example		lib		readme.markdown	test
+SECURITY.md	bin		index.js	package.json	sync.js
+
+./node_modules/tailwindcss/node_modules/resolve/bin:
+resolve
+
+./node_modules/tailwindcss/node_modules/resolve/example:
+async.js	sync.js
+
+./node_modules/tailwindcss/node_modules/resolve/lib:
+async.js		core.json		node-modules-paths.js
+caller.js		homedir.js		normalize-options.js
+core.js			is-core.js		sync.js
+
+./node_modules/tailwindcss/node_modules/resolve/test:
+core.js			home_paths_sync.js	node_path.js		resolver.js
+dotdot			mock.js			nonstring.js		resolver_sync.js
+dotdot.js		mock_sync.js		pathfilter		shadowed_core
+faulty_basedir.js	module_dir		pathfilter.js		shadowed_core.js
+filter.js		module_dir.js		precedence		subdirs.js
+filter_sync.js		node-modules-paths.js	precedence.js		symlinks.js
+home_paths.js		node_path		resolver
+
+./node_modules/tailwindcss/node_modules/resolve/test/dotdot:
+abc		index.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/dotdot/abc:
+index.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/module_dir:
+xmodules	ymodules	zmodules
+
+./node_modules/tailwindcss/node_modules/resolve/test/module_dir/xmodules:
+aaa
+
+./node_modules/tailwindcss/node_modules/resolve/test/module_dir/xmodules/aaa:
+index.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/module_dir/ymodules:
+aaa
+
+./node_modules/tailwindcss/node_modules/resolve/test/module_dir/ymodules/aaa:
+index.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/module_dir/zmodules:
+bbb
+
+./node_modules/tailwindcss/node_modules/resolve/test/module_dir/zmodules/bbb:
+main.js		package.json
+
+./node_modules/tailwindcss/node_modules/resolve/test/node_path:
+x	y
+
+./node_modules/tailwindcss/node_modules/resolve/test/node_path/x:
+aaa	ccc
+
+./node_modules/tailwindcss/node_modules/resolve/test/node_path/x/aaa:
+index.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/node_path/x/ccc:
+index.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/node_path/y:
+bbb	ccc
+
+./node_modules/tailwindcss/node_modules/resolve/test/node_path/y/bbb:
+index.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/node_path/y/ccc:
+index.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/pathfilter:
+deep_ref
+
+./node_modules/tailwindcss/node_modules/resolve/test/pathfilter/deep_ref:
+main.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/precedence:
+aaa	aaa.js	bbb	bbb.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/precedence/aaa:
+index.js	main.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/precedence/bbb:
+main.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver:
+baz		dot_main	foo.js		mug.coffee	nested_symlinks	same_names
+browser_field	dot_slash_main	incorrect_main	mug.js		other_path	symlinked
+cup.coffee	false_main	invalid_main	multirepo	quux		without_basedir
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/baz:
+doom.js		package.json	quux.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/browser_field:
+a.js		b.js		package.json
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/dot_main:
+index.js	package.json
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/dot_slash_main:
+index.js	package.json
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/false_main:
+index.js	package.json
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/incorrect_main:
+index.js	package.json
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/invalid_main:
+package.json
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/multirepo:
+lerna.json	package.json	packages
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/multirepo/packages:
+package-a	package-b
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/multirepo/packages/package-a:
+index.js	package.json
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/multirepo/packages/package-b:
+index.js	package.json
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/nested_symlinks:
+mylib
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/nested_symlinks/mylib:
+async.js	package.json	sync.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/other_path:
+lib	root.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/other_path/lib:
+other-lib.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/quux:
+foo
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/quux/foo:
+index.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/same_names:
+foo	foo.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/same_names/foo:
+index.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/symlinked:
+_	package
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/symlinked/_:
+node_modules	symlink_target
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/symlinked/_/node_modules:
+foo.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/symlinked/_/symlink_target:
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/symlinked/package:
+bar.js		package.json
+
+./node_modules/tailwindcss/node_modules/resolve/test/resolver/without_basedir:
+main.js
+
+./node_modules/tailwindcss/node_modules/resolve/test/shadowed_core:
+node_modules
+
+./node_modules/tailwindcss/node_modules/resolve/test/shadowed_core/node_modules:
+util
+
+./node_modules/tailwindcss/node_modules/resolve/test/shadowed_core/node_modules/util:
+index.js
+
+./node_modules/tailwindcss/peers:
+index.js
+
+./node_modules/tailwindcss/scripts:
+create-plugin-list.js	release-channel.js	type-utils.js
+generate-types.js	release-notes.js
+
+./node_modules/tailwindcss/src:
+cli				css				postcss-plugins
+cli-peer-dependencies.js	featureFlags.js			processTailwindFeatures.js
+cli.js				index.js			public
+corePluginList.js		lib				util
+corePlugins.js			plugin.js			value-parser
+
+./node_modules/tailwindcss/src/cli:
+build		help		index.js	init
+
+./node_modules/tailwindcss/src/cli/build:
+deps.js		index.js	plugin.js	utils.js	watching.js
+
+./node_modules/tailwindcss/src/cli/help:
+index.js
+
+./node_modules/tailwindcss/src/cli/init:
+index.js
+
+./node_modules/tailwindcss/src/css:
+LICENSE		preflight.css
+
+./node_modules/tailwindcss/src/lib:
+cacheInvalidation.js			load-config.ts
+collapseAdjacentRules.js		normalizeTailwindDirectives.js
+collapseDuplicateDeclarations.js	offsets.js
+content.js				partitionApplyAtRules.js
+defaultExtractor.js			regex.js
+evaluateTailwindFunctions.js		remap-bitfield.js
+expandApplyAtRules.js			resolveDefaultsAtRules.js
+expandTailwindAtRules.js		setupContextUtils.js
+findAtConfigPath.js			setupTrackingContext.js
+generateRules.js			sharedState.js
+getModuleDependencies.js		substituteScreenAtRules.js
+
+./node_modules/tailwindcss/src/postcss-plugins:
+nesting
+
+./node_modules/tailwindcss/src/postcss-plugins/nesting:
+README.md	index.js	plugin.js
+
+./node_modules/tailwindcss/src/public:
+colors.js		default-config.js	load-config.js
+create-plugin.js	default-theme.js	resolve-config.js
+
+./node_modules/tailwindcss/src/util:
+applyImportantSelector.js		negateValue.js
+bigSign.js				normalizeConfig.js
+buildMediaQuery.js			normalizeScreens.js
+cloneDeep.js				parseAnimationValue.js
+cloneNodes.js				parseBoxShadowValue.js
+color.js				parseDependency.js
+colorNames.js				parseGlob.js
+configurePlugins.js			parseObjectStyles.js
+createPlugin.js				pluginUtils.js
+createUtilityPlugin.js			prefixSelector.js
+dataTypes.js				pseudoElements.js
+defaults.js				removeAlphaVariables.js
+escapeClassName.js			resolveConfig.js
+escapeCommas.js				resolveConfigPath.js
+flattenColorPalette.js			responsive.js
+formatVariantSelector.js		splitAtTopLevelOnly.js
+getAllConfigs.js			tap.js
+hashConfig.js				toColorValue.js
+isKeyframeRule.js			toPath.js
+isPlainObject.js			transformThemeValue.js
+isSyntacticallyValidPropertyValue.js	validateConfig.js
+log.js					validateFormalSyntax.js
+nameClass.js				withAlphaVariable.js
+
+./node_modules/tailwindcss/src/value-parser:
+LICENSE		index.d.ts	parse.js	unit.js
+README.md	index.js	stringify.js	walk.js
+
+./node_modules/tailwindcss/stubs:
+config.full.js		postcss.config.cjs	tailwind.config.cjs	tailwind.config.ts
+config.simple.js	postcss.config.js	tailwind.config.js
+
+./node_modules/tailwindcss/types:
+config.d.ts	generated	index.d.ts
+
+./node_modules/tailwindcss/types/generated:
+colors.d.ts		corePluginList.d.ts	default-theme.d.ts
+
+./node_modules/thenify:
+History.md	LICENSE		README.md	index.js	package.json
+
+./node_modules/thenify-all:
+History.md	LICENSE		README.md	index.js	package.json
+
+./node_modules/tlds:
+LICENSE		Readme.md	bin.js		index.d.ts	index.json	package.json
+
+./node_modules/to-regex-range:
+LICENSE		README.md	index.js	package.json
+
+./node_modules/ts-interface-checker:
+LICENSE		README.md	dist		package.json
+
+./node_modules/ts-interface-checker/dist:
+index.d.ts	index.js	types.d.ts	types.js	util.d.ts	util.js
+
+./node_modules/type-check:
+LICENSE		README.md	lib		package.json
+
+./node_modules/type-check/lib:
+check.js	index.js	parse-type.js
+
+./node_modules/typed-array-buffer:
+CHANGELOG.md	README.md	index.js	test
+LICENSE		index.d.ts	package.json	tsconfig.json
+
+./node_modules/typed-array-buffer/test:
+index.js
+
+./node_modules/typed-array-byte-length:
+CHANGELOG.md	README.md	index.js	test
+LICENSE		index.d.ts	package.json	tsconfig.json
+
+./node_modules/typed-array-byte-length/test:
+index.js
+
+./node_modules/typed-array-byte-offset:
+CHANGELOG.md	README.md	index.js	test
+LICENSE		index.d.ts	package.json	tsconfig.json
+
+./node_modules/typed-array-byte-offset/test:
+index.js
+
+./node_modules/typed-array-length:
+CHANGELOG.md	README.md	index.js	test
+LICENSE		index.d.ts	package.json	tsconfig.json
+
+./node_modules/typed-array-length/test:
+index.js
+
+./node_modules/uint8arrays:
+README.md	compare		equals		from-string	index.min.js	to-string	xor
+cjs		concat		esm		index.js	package.json	types
+
+./node_modules/uint8arrays/cjs:
+src
+
+./node_modules/uint8arrays/cjs/src:
+compare.js	equals.js	index.js	util
+concat.js	from-string.js	to-string.js	xor.js
+
+./node_modules/uint8arrays/cjs/src/util:
+bases.js
+
+./node_modules/uint8arrays/esm:
+package.json	src
+
+./node_modules/uint8arrays/esm/src:
+compare.js	equals.js	index.js	util
+concat.js	from-string.js	to-string.js	xor.js
+
+./node_modules/uint8arrays/esm/src/util:
+bases.js
+
+./node_modules/uint8arrays/types:
+src					tsconfig-types.aegir.tsbuildinfo
+tsconfig-check.aegir.tsbuildinfo
+
+./node_modules/uint8arrays/types/src:
+compare.d.ts		equals.d.ts		index.d.ts		util
+compare.d.ts.map	equals.d.ts.map		index.d.ts.map		xor.d.ts
+concat.d.ts		from-string.d.ts	to-string.d.ts		xor.d.ts.map
+concat.d.ts.map		from-string.d.ts.map	to-string.d.ts.map
+
+./node_modules/uint8arrays/types/src/util:
+bases.d.ts	bases.d.ts.map
+
+./node_modules/unbox-primitive:
+CHANGELOG.md	LICENSE		README.md	index.js	package.json	test
+
+./node_modules/unbox-primitive/test:
+index.js
+
+./node_modules/update-browserslist-db:
+LICENSE			check-npm-version.js	index.d.ts		package.json
+README.md		cli.js			index.js		utils.js
+
+./node_modules/uri-js:
+LICENSE		README.md	dist		package.json	yarn.lock
+
+./node_modules/uri-js/dist:
+es5	esnext
+
+./node_modules/uri-js/dist/es5:
+uri.all.d.ts		uri.all.js.map		uri.all.min.js
+uri.all.js		uri.all.min.d.ts	uri.all.min.js.map
+
+./node_modules/uri-js/dist/esnext:
+index.d.ts		regexps-iri.js		regexps-uri.js.map	uri.js.map
+index.js		regexps-iri.js.map	schemes			util.d.ts
+index.js.map		regexps-uri.d.ts	uri.d.ts		util.js
+regexps-iri.d.ts	regexps-uri.js		uri.js			util.js.map
+
+./node_modules/uri-js/dist/esnext/schemes:
+http.d.ts	https.d.ts	mailto.d.ts	urn-uuid.d.ts	urn.d.ts	ws.d.ts		wss.d.ts
+http.js		https.js	mailto.js	urn-uuid.js	urn.js		ws.js		wss.js
+http.js.map	https.js.map	mailto.js.map	urn-uuid.js.map	urn.js.map	ws.js.map	wss.js.map
+
+./node_modules/util-deprecate:
+History.md	LICENSE		README.md	browser.js	node.js		package.json
+
+./node_modules/vite:
+LICENSE.md	bin		dist		index.d.cts	package.json
+README.md	client.d.ts	index.cjs	misc		types
+
+./node_modules/vite/bin:
+openChrome.applescript	vite.js
+
+./node_modules/vite/dist:
+client		node		node-cjs
+
+./node_modules/vite/dist/client:
+client.mjs	env.mjs
+
+./node_modules/vite/dist/node:
+chunks			constants.js		index.js		module-runner.js
+cli.js			index.d.ts		module-runner.d.ts
+
+./node_modules/vite/dist/node/chunks:
+dep-3RmXg9uo.js	dep-BcnkIxro.js	dep-BnwAUvl5.js	dep-DnSxfB-q.js	dep-ab_8SKHY.js
+
+./node_modules/vite/dist/node-cjs:
+publicUtils.cjs
+
+./node_modules/vite/misc:
+false.js	true.js
+
+./node_modules/vite/types:
+customEvent.d.ts	import-meta.d.ts	internal
+hmrPayload.d.ts		importGlob.d.ts		metadata.d.ts
+hot.d.ts		importMeta.d.ts		package.json
+
+./node_modules/vite/types/internal:
+cssPreprocessorOptions.d.ts	lightningcssOptions.d.ts
+
+./node_modules/which:
+CHANGELOG.md	LICENSE		README.md	bin		package.json	which.js
+
+./node_modules/which/bin:
+node-which
+
+./node_modules/which-boxed-primitive:
+CHANGELOG.md	LICENSE		README.md	index.js	package.json	test
+
+./node_modules/which-boxed-primitive/test:
+index.js
+
+./node_modules/which-builtin-type:
+CHANGELOG.md	README.md	index.js	test
+LICENSE		index.d.ts	package.json	tsconfig.json
+
+./node_modules/which-builtin-type/test:
+index.js
+
+./node_modules/which-collection:
+CHANGELOG.md	README.md	index.js	test
+LICENSE		index.d.ts	package.json	tsconfig.json
+
+./node_modules/which-collection/test:
+index.js
+
+./node_modules/which-typed-array:
+CHANGELOG.md	README.md	index.js	test
+LICENSE		index.d.ts	package.json	tsconfig.json
+
+./node_modules/which-typed-array/test:
+index.js
+
+./node_modules/word-wrap:
+LICENSE		README.md	index.d.ts	index.js	package.json
+
+./node_modules/wrap-ansi:
+index.d.ts	index.js	license		node_modules	package.json	readme.md
+
+./node_modules/wrap-ansi/node_modules:
+ansi-styles
+
+./node_modules/wrap-ansi/node_modules/ansi-styles:
+index.d.ts	index.js	license		package.json	readme.md
+
+./node_modules/wrap-ansi-cjs:
+index.js	license		node_modules	package.json	readme.md
+
+./node_modules/wrap-ansi-cjs/node_modules:
+ansi-regex	emoji-regex	string-width	strip-ansi
+
+./node_modules/wrap-ansi-cjs/node_modules/ansi-regex:
+index.d.ts	index.js	license		package.json	readme.md
+
+./node_modules/wrap-ansi-cjs/node_modules/emoji-regex:
+LICENSE-MIT.txt	README.md	es2015		index.d.ts	index.js	package.json	text.js
+
+./node_modules/wrap-ansi-cjs/node_modules/emoji-regex/es2015:
+index.js	text.js
+
+./node_modules/wrap-ansi-cjs/node_modules/string-width:
+index.d.ts	index.js	license		package.json	readme.md
+
+./node_modules/wrap-ansi-cjs/node_modules/strip-ansi:
+index.d.ts	index.js	license		package.json	readme.md
+
+./node_modules/yallist:
+LICENSE		README.md	iterator.js	package.json	yallist.js
+
+./node_modules/yaml:
+LICENSE		README.md	bin.mjs		browser		dist		package.json	util.js
+
+./node_modules/yaml/browser:
+dist		index.js	package.json
+
+./node_modules/yaml/browser/dist:
+compose		errors.js	log.js		parse		schema		util.js
+doc		index.js	nodes		public-api.js	stringify	visit.js
+
+./node_modules/yaml/browser/dist/compose:
+compose-collection.js		resolve-block-scalar.js		util-contains-newline.js
+compose-doc.js			resolve-block-seq.js		util-empty-scalar-position.js
+compose-node.js			resolve-end.js			util-flow-indent-check.js
+compose-scalar.js		resolve-flow-collection.js	util-map-includes.js
+composer.js			resolve-flow-scalar.js
+resolve-block-map.js		resolve-props.js
+
+./node_modules/yaml/browser/dist/doc:
+Document.js	anchors.js	applyReviver.js	createNode.js	directives.js
+
+./node_modules/yaml/browser/dist/nodes:
+Alias.js		Pair.js			YAMLSeq.js		toJS.js
+Collection.js		Scalar.js		addPairToJSMap.js
+Node.js			YAMLMap.js		identity.js
+
+./node_modules/yaml/browser/dist/parse:
+cst-scalar.js		cst-visit.js		lexer.js		parser.js
+cst-stringify.js	cst.js			line-counter.js
+
+./node_modules/yaml/browser/dist/schema:
+Schema.js	common		core		json		tags.js		yaml-1.1
+
+./node_modules/yaml/browser/dist/schema/common:
+map.js		null.js		seq.js		string.js
+
+./node_modules/yaml/browser/dist/schema/core:
+bool.js		float.js	int.js		schema.js
+
+./node_modules/yaml/browser/dist/schema/json:
+schema.js
+
+./node_modules/yaml/browser/dist/schema/yaml-1.1:
+binary.js	float.js	merge.js	pairs.js	set.js
+bool.js		int.js		omap.js		schema.js	timestamp.js
+
+./node_modules/yaml/browser/dist/stringify:
+foldFlowLines.js	stringifyCollection.js	stringifyDocument.js	stringifyPair.js
+stringify.js		stringifyComment.js	stringifyNumber.js	stringifyString.js
+
+./node_modules/yaml/dist:
+cli.d.ts		index.d.ts		parse			test-events.js
+cli.mjs			index.js		public-api.d.ts		util.d.ts
+compose			log.d.ts		public-api.js		util.js
+doc			log.js			schema			visit.d.ts
+errors.d.ts		nodes			stringify		visit.js
+errors.js		options.d.ts		test-events.d.ts
+
+./node_modules/yaml/dist/compose:
+compose-collection.d.ts		resolve-block-map.js		resolve-props.d.ts
+compose-collection.js		resolve-block-scalar.d.ts	resolve-props.js
+compose-doc.d.ts		resolve-block-scalar.js		util-contains-newline.d.ts
+compose-doc.js			resolve-block-seq.d.ts		util-contains-newline.js
+compose-node.d.ts		resolve-block-seq.js		util-empty-scalar-position.d.ts
+compose-node.js			resolve-end.d.ts		util-empty-scalar-position.js
+compose-scalar.d.ts		resolve-end.js			util-flow-indent-check.d.ts
+compose-scalar.js		resolve-flow-collection.d.ts	util-flow-indent-check.js
+composer.d.ts			resolve-flow-collection.js	util-map-includes.d.ts
+composer.js			resolve-flow-scalar.d.ts	util-map-includes.js
+resolve-block-map.d.ts		resolve-flow-scalar.js
+
+./node_modules/yaml/dist/doc:
+Document.d.ts		anchors.js		createNode.d.ts		directives.js
+Document.js		applyReviver.d.ts	createNode.js
+anchors.d.ts		applyReviver.js		directives.d.ts
+
+./node_modules/yaml/dist/nodes:
+Alias.d.ts		Node.js			YAMLMap.d.ts		addPairToJSMap.js
+Alias.js		Pair.d.ts		YAMLMap.js		identity.d.ts
+Collection.d.ts		Pair.js			YAMLSeq.d.ts		identity.js
+Collection.js		Scalar.d.ts		YAMLSeq.js		toJS.d.ts
+Node.d.ts		Scalar.js		addPairToJSMap.d.ts	toJS.js
+
+./node_modules/yaml/dist/parse:
+cst-scalar.d.ts		cst-visit.d.ts		lexer.d.ts		parser.d.ts
+cst-scalar.js		cst-visit.js		lexer.js		parser.js
+cst-stringify.d.ts	cst.d.ts		line-counter.d.ts
+cst-stringify.js	cst.js			line-counter.js
+
+./node_modules/yaml/dist/schema:
+Schema.d.ts		core			tags.d.ts		yaml-1.1
+Schema.js		json			tags.js
+common			json-schema.d.ts	types.d.ts
+
+./node_modules/yaml/dist/schema/common:
+map.d.ts	null.d.ts	seq.d.ts	string.d.ts
+map.js		null.js		seq.js		string.js
+
+./node_modules/yaml/dist/schema/core:
+bool.d.ts	float.d.ts	int.d.ts	schema.d.ts
+bool.js		float.js	int.js		schema.js
+
+./node_modules/yaml/dist/schema/json:
+schema.d.ts	schema.js
+
+./node_modules/yaml/dist/schema/yaml-1.1:
+binary.d.ts	bool.js		int.d.ts	merge.js	pairs.d.ts	schema.js	timestamp.d.ts
+binary.js	float.d.ts	int.js		omap.d.ts	pairs.js	set.d.ts	timestamp.js
+bool.d.ts	float.js	merge.d.ts	omap.js		schema.d.ts	set.js
+
+./node_modules/yaml/dist/stringify:
+foldFlowLines.d.ts		stringifyComment.d.ts		stringifyPair.d.ts
+foldFlowLines.js		stringifyComment.js		stringifyPair.js
+stringify.d.ts			stringifyDocument.d.ts		stringifyString.d.ts
+stringify.js			stringifyDocument.js		stringifyString.js
+stringifyCollection.d.ts	stringifyNumber.d.ts
+stringifyCollection.js		stringifyNumber.js
+
+./node_modules/yocto-queue:
+index.d.ts	index.js	license		package.json	readme.md
+
+./node_modules/zod:
+LICENSE		README.md	index.d.ts	lib		package.json
+
+./node_modules/zod/lib:
+ZodError.d.ts	benchmarks	external.d.ts	index.d.ts	index.umd.js	types.js
+ZodError.js	errors.d.ts	external.js	index.js	locales
+__tests__	errors.js	helpers		index.mjs	types.d.ts
+
+./node_modules/zod/lib/__tests__:
+Mocker.d.ts	Mocker.js
+
+./node_modules/zod/lib/benchmarks:
+datetime.d.ts		index.js		primitives.d.ts		string.js
+datetime.js		ipv4.d.ts		primitives.js		union.d.ts
+discriminatedUnion.d.ts	ipv4.js			realworld.d.ts		union.js
+discriminatedUnion.js	object.d.ts		realworld.js
+index.d.ts		object.js		string.d.ts
+
+./node_modules/zod/lib/helpers:
+enumUtil.d.ts		errorUtil.js		partialUtil.d.ts	typeAliases.js
+enumUtil.js		parseUtil.d.ts		partialUtil.js		util.d.ts
+errorUtil.d.ts		parseUtil.js		typeAliases.d.ts	util.js
+
+./node_modules/zod/lib/locales:
+en.d.ts	en.js
+
+./public:
+vite.svg
+
+./src:
+App.css		assets		hooks		main.jsx	utils
+App.jsx		components	index.css	services
+
+./src/assets:
+react.svg
+
+./src/components:
+Feed		Layout		Test.jsx
+
+./src/components/Feed:
+Feed.jsx	FeedConfig.jsx	FeedItem.jsx
+
+./src/components/Layout:
+Layout.jsx
+
+./src/hooks:
+TestHooks.jsx	useBluesky.js
+
+./src/services:
+api.ts		bluesky.ts
+
+./src/utils:
+dateFormatter.js
+imac@imac-2s-iMac bluesky-nyc-events % 
